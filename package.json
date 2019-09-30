@@ -1,9 +1,9 @@
 {
-  "name": "hls.vcloudcam",
+  "name": "vcloudcam.hls",
   "license": "Apache-2.0",
   "description": "JavaScript HLS client using MediaSourceExtension",
   "homepage": "https://github.com/quocson95/hls.js",
-  "authors": "Guillaume du Pontavice <g.du.pontavice@gmail.com> (Path by sondq@vng.com.vn)",
+  "authors": "Guillaume du Pontavice <g.du.pontavice@gmail.com> (Patch by sondq@vng.com.vn)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/quocson95/hls.js"
