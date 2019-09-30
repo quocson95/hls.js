@@ -1,12 +1,12 @@
 {
-  "name": "hls.js",
+  "name": "hls.vcloudcam",
   "license": "Apache-2.0",
   "description": "JavaScript HLS client using MediaSourceExtension",
-  "homepage": "https://github.com/video-dev/hls.js",
-  "authors": "Guillaume du Pontavice <g.du.pontavice@gmail.com>",
+  "homepage": "https://github.com/quocson95/hls.js",
+  "authors": "Guillaume du Pontavice <g.du.pontavice@gmail.com> (Path by sondq@vng.com.vn)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/video-dev/hls.js"
+    "url": "git+https://github.com/quocson95/hls.js"
   },
   "bugs": {
     "url": "https://github.com/video-dev/hls.js/issues"
@@ -87,5 +87,14 @@
     "webpack-cli": "^3.0.2",
     "webpack-dev-server": "^3.1.4",
     "webworkify-webpack": "^2.1.2"
-  }
+  },
+  "version": "0.12.4",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "keywords": [
+    "hls.vcloudcam.js"
+  ],
+  "author": "sondq@vng.com.vn"
 }
