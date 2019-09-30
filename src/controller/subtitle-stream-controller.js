@@ -156,7 +156,7 @@ export class SubtitleStreamController extends BaseStreamController {
         data.frag.type === 'subtitle' &&
         fragCurrent.sn === data.frag.sn) {
       // check to see if the payload needs to be decrypted
-      if (data.payload.byteLength > 0 && (decryptData && decryptData.key && decryptData.method === 'AES-128')) {
+      if (data.payload.byteLength > 0 && (decryptData && decryptData.key && (decryptData.method === 'AES-128' || decryptData.method === 'AES-256'))) {
         let startTime = performance.now();
 
         // decrypt the subtitles
